@@ -6,6 +6,7 @@ module.exports = () => {
       throw err;
     } else {
       process.stdout.write(data.join("\n"));
+      process.stdout.write("\nprompt >");
     }
   });
 };
